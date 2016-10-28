@@ -1,0 +1,14 @@
+<div class="questionDetail">
+  <h1><span class="decorator">Q:</span> {{model.title}}</h1>
+  <h4>Posted by {{model.author}}</h4>
+  <h6>Asked on {{model.timestamp}}</h6>
+  <p>{{model.details}}</p>
+</div>
+<button class="btn" {{action 'delete' model}}>Delete Questions</button>
+{{update-question question=model updateQuestion="updateQuestion"}}
+{{#each model.answers as |answer|}}
+  <hr class="styled">
+  {{answer-tile answer=answer deleteAnswer="deleteAnswer"}}
+{{/each}}
+<hr class="styled">
+{{new-answer saveAnswer="saveAnswer" question=model}}
