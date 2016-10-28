@@ -1,0 +1,11 @@
+<form {{action 'save' on="submit"}}>
+  <div class="form-group">
+    <label for="answer">Answer</label>
+    {{textarea value=answer type="text" id="answer" required="required"}}
+  </div>
+  <div class="form-group">
+    <label for="answer">Name</label>
+    {{input value=name type="text" id="name"}}
+  </div>
+  <button class="btn">Submit</button>
+</form>
