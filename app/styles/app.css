@@ -4,7 +4,6 @@ body{
 }
 .container{
   width: 60%;
-  border: 1px solid black;
 }
 .row{
   width: 70%;
@@ -49,11 +48,16 @@ hr.styled:after{
 .col-sm-2, form{
   text-align: center;
 }
+.col-sm-2 button{
+  margin-bottom: 5px;
+}
 .btn{
-  border: 3px solid #525252;
+  border: 2px solid #525252;
   background-color: white;
   color: #525252;
   font-weight: bolder;
+  font-size: 12px;
+  padding: 4px;
 }
 form{
   display: table;
@@ -80,4 +84,21 @@ input{
 }
 textarea{
   height: 100px;
+}
+.answerForm textarea, .answerForm input{
+  width: 400px;
+}
+input:focus, textarea:focus{
+  outline: none;
+}
+.col-sm-2 i{
+  font-size: 30px;
+  margin-top: 35px;
+  letter-spacing: 10px;
+}
+.fa-thumbs-o-up{
+  color: #002947;
+}
+.fa-thumbs-o-down{
+  color: #750000;
 }

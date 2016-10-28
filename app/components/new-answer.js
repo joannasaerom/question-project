@@ -12,6 +12,7 @@ export default Ember.Component.extend({
         answer: this.get('answer'),
         author: userInput,
         timestamp: moment().format('LL h:mm:ss a'),
+        upvote: 0,
         question: this.get('question')
       };
       this.sendAction('saveAnswer', params);

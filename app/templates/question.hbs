@@ -12,7 +12,7 @@
 </div>
 {{#each model.answers as |answer|}}
   <hr class="styled">
-  {{answer-tile answer=answer deleteAnswer="deleteAnswer"}}
+  {{answer-tile answer=answer deleteAnswer="deleteAnswer"  updateUpvote="updateUpvote" updateDownvote="updateDownvote"}}
 {{/each}}
 <hr class="styled">
 <div class="center">
