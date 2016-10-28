@@ -1,10 +1,11 @@
-# Qna-project
+# QnA Question and Answer Forum
+####_Joanna Anderson_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+##Description
+This application is a question and answer forum created through the Ember JS framework. Users have the capability of asking questions on the forum. In addition, they can edit and delete their questions. Other users can browse the questions and answer them. In addition to basic posting capabilities, the application allows users to vote for answers which helps other users determine which answer provides the best explanation.
+<img src="/public/img/screenshot.png">
 
 ## Prerequisites
-
 You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
@@ -14,40 +15,24 @@ You will need the following things properly installed on your computer.
 * [PhantomJS](http://phantomjs.org/)
 
 ## Installation
-
-* `git clone <repository-url>` this repository
-* `cd qna-project`
+**To download the project**
+* `git clone https://github.com/saeromjoa/question-project` this repository
+* `cd question-project`
 * `npm install`
 * `bower install`
 
-## Running / Development
-
+## Running the Application
+To run the application, type the following command in Terminal:
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+##Technologies Used
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* Ember JS
+* Bower
 
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+### License
+Copyright (c) 2016 **_Joanna Anderson_**

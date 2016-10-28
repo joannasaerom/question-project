@@ -48,9 +48,6 @@ export default Ember.Route.extend({
 
     },
     updateDownvote(params, answer){
-      // debugger;
-      // console.log('q params' +params);
-      // console.log('q answer'+answer);
       Object.keys(params).forEach(function(key){
         if(params[key] !== undefined){
           answer.set(key, params[key]);
