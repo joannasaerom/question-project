@@ -20,7 +20,7 @@ export default Ember.Component.extend({
       };
       this.sendAction('saveQuestion', params);
       this.set('addQuestion', false);
-      this.set('question', '');
+      this.set('title', '');
       this.set('author', '');
       this.set('details', '');
     }
