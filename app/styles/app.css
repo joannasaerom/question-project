@@ -102,3 +102,6 @@ input:focus, textarea:focus{
 .fa-thumbs-o-down{
   color: #750000;
 }
+.questionDetail h4{
+  margin-bottom: 0px;
+}
