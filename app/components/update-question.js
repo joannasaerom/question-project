@@ -7,10 +7,14 @@ export default Ember.Component.extend({
       this.set('editQuestion', true);
     },
     update(question){
+      var userInput = this.get('author');
+      if(userInput === undefined || userInput === ''){
+        userInput = "Anonymous";
+      }
       var params = {
         title: this.get('title'),
         details: this.get('details'),
-        author: this.get('author'),
+        author: userInput,
 
       };
       this.sendAction('updateQuestion', params, question);

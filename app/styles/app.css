@@ -1,16 +1,17 @@
 body{
   font-family: 'Roboto', sans-serif;
-  color: #525252;
+  color: #161616;
 }
 .container{
-  width: 80%;
+  width: 60%;
+  border: 1px solid black;
 }
 .row{
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 hr{
-  width: 90%;
+  width: 70%;
 }
 hr.styled{
   border-top: 1px solid #8c8b8b;
@@ -33,6 +34,8 @@ hr.styled:after{
 .logo{
   font-size: 50px;
   font-family: 'Montserrat Alternates', sans-serif;
+  color: #680000;
+  margin-left: 20%;
 }
 .homeLink{
   font-size: 15px;
@@ -41,8 +44,9 @@ hr.styled:after{
 .decorator{
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 35px;
+  color: #680000;
 }
-.col-sm-2{
+.col-sm-2, form{
   text-align: center;
 }
 .btn{
@@ -50,4 +54,30 @@ hr.styled:after{
   background-color: white;
   color: #525252;
   font-weight: bolder;
+}
+form{
+  display: table;
+}
+input, textarea, label{
+  display: table-cell;
+}
+.center form{
+  margin: 0 auto;
+}
+a{
+  color: #161616;
+}
+a:hover, a:focus, a:active{
+  color: #161616;
+  text-decoration: none;
+}
+textarea, input{
+  width: 250px;
+  border-radius: 3px;
+}
+input{
+  height: 30px;
+}
+textarea{
+  height: 100px;
 }
