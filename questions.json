@@ -1,0 +1,13 @@
+{
+  "questions": [{
+      "title": "What color is an apple?",
+      "author": "Anonymous",
+      "details": "I would like to know what color apples are.",
+      "timestamp": "2015-12-23"
+    },{
+      "title": "What is the difference between let and var?",
+      "author": "Arthur A.",
+      "details": "I am struggling to understand the difference between let and var. Please help",
+      "timestamp": "2016-02-01"
+    }]
+}
