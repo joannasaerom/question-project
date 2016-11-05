@@ -5,7 +5,7 @@ export function questionNew(params) {
   var questionDate = new Date(params[0]);
 
   if(today.getFullYear() === questionDate.getFullYear() && today.getMonth() === questionDate.getMonth() && today.getDate() === questionDate.getDate()) {
-    return new Ember.Handlebars.SafeString('<span class="red">New</span>');
+    return new Ember.String.htmlSafe('<span class="red">New</span>');
   }
 }
 

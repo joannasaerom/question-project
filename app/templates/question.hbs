@@ -9,9 +9,9 @@
   <div class="col-sm-2">
     <button class="btn" {{action 'delete' model}}>Delete Questions</button>
     {{update-question question=model updateQuestion="updateQuestion"}}
+    <i {{action 'addToFav' model}} class="glyphicon glyphicon-heart"></i>
   </div>
 </div>
-{{log sortedAnswers}}
 {{#each model.answers as |answer|}}
   <hr class="styled">
   {{answer-tile answer=answer deleteAnswer="deleteAnswer"  updateUpvote="updateUpvote" updateDownvote="updateDownvote"}}

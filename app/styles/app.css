@@ -33,8 +33,9 @@ hr.styled:after{
   color: #680000;
   margin-left: 20%;
 }
-.homeLink{
+.homeLink, .favoriteLink{
   font-size: 15px;
+  word-spacing: 10px;
   font-family: 'Roboto', sans-serif;
 }
 .decorator{
@@ -108,7 +109,13 @@ i.glyphicon-fire{
   margin-bottom: 0px;
 }
 .red{
+  text-transform: uppercase;
   color: white;
-  font-size: 15px;
+  font-size: 13px;
   text-shadow: 1px 1px 2px red, 0 0 30px red, 0 0 10px #7f0000;
+}
+i.glyphicon-heart{
+  cursor: pointer;
+  color: #750000;
+  text-align: center;
 }
