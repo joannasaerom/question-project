@@ -26,9 +26,6 @@ hr.styled:after{
 	background: white;
 	color: #8c8b8b;
 	font-size: 12px;
-	-webkit-transform: rotate(60deg);
-	-moz-transform: rotate(60deg);
-	transform: rotate(60deg);
 }
 .logo{
   font-size: 50px;
@@ -109,4 +106,9 @@ i.glyphicon-fire{
 }
 .questionDetail h4{
   margin-bottom: 0px;
+}
+.red{
+  color: white;
+  font-size: 15px;
+  text-shadow: 1px 1px 2px red, 0 0 30px red, 0 0 10px #7f0000;
 }
