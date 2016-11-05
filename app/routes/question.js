@@ -4,6 +4,8 @@ export default Ember.Route.extend({
   model(params){
     return this.store.findRecord('question', params.question_id);
   },
+  // sortBy: ['upvote:desc'],
+  // sortedAnswers: Ember.computed.sort('question.answers', 'sortBy'),
   actions: {
     delete(question){
       var answer_deletions = question.get('answers').map(function(answer){

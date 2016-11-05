@@ -11,7 +11,7 @@
     {{update-question question=model updateQuestion="updateQuestion"}}
   </div>
 </div>
-
+{{log sortedAnswers}}
 {{#each model.answers as |answer|}}
   <hr class="styled">
   {{answer-tile answer=answer deleteAnswer="deleteAnswer"  updateUpvote="updateUpvote" updateDownvote="updateDownvote"}}

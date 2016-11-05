@@ -1,6 +1,6 @@
 <div class="questionTile">
   {{#link-to 'question' question.id}}
-    <h1><span class="decorator">Q:</span> {{question.title}}</h1>
+    <h1><span class="decorator">Q:</span>{{question-new question.timestamp}} {{question.title}}</h1>
   {{/link-to}}
   <h6>Posted by {{question.author}} | Asked on {{question.timestamp}}</h6>
 </div>

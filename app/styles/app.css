@@ -99,8 +99,13 @@ input:focus, textarea:focus{
 .fa-thumbs-o-up{
   color: #002947;
 }
-.fa-thumbs-o-down{
+.fa-thumbs-o-down, .glyphicon-fire{
   color: #750000;
+}
+i.glyphicon-fire{
+  font-size: 15px;
+  display: inline;
+  letter-spacing: 5px;
 }
 .questionDetail h4{
   margin-bottom: 0px;
