@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-
+  adminLogIn: Ember.inject.service('admin-login'),
   actions:{
     delete(answer){
       if(confirm('Are you sure?')){

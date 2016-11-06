@@ -2,7 +2,9 @@
   <div class="col-sm-10">
     <h3><span class="decorator">A:</span> {{answer.answer}}</h3>
     <h6>Submitted by {{answer.author}} on {{answer.timestamp}}</h6>
-    <button class="btn" {{action 'delete' answer}}>Delete</button>
+    {{#if adminLogIn.loggedIn}}
+      <button class="btn" {{action 'delete' answer}}>Delete</button>
+    {{/if}}
   </div>
   <div class="col-sm-2">
     <i class="fa fa-thumbs-o-up" aria-hidden="true" {{action 'upvote' answer}}></i>
