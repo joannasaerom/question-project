@@ -9,6 +9,7 @@
   <div class="col-sm-2">
     <button class="btn" {{action 'delete' model}}>Delete Questions</button>
     {{update-question question=model updateQuestion="updateQuestion"}}
+    <p><small>Add to your favorite:</small></p>
     <i {{action 'addToFav' model}} class="glyphicon glyphicon-heart"></i>
   </div>
 </div>

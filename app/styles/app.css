@@ -104,6 +104,7 @@ i.glyphicon-fire{
   font-size: 15px;
   display: inline;
   letter-spacing: 5px;
+  text-shadow: 1px 1px 1px red, 0 0 10px red, 0 0 15px #7f0000;
 }
 .questionDetail h4{
   margin-bottom: 0px;
@@ -118,4 +119,5 @@ i.glyphicon-heart{
   cursor: pointer;
   color: #750000;
   text-align: center;
+  margin-top: 0px;
 }
