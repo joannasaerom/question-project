@@ -33,7 +33,7 @@ hr.styled:after{
   color: #680000;
   margin-left: 20%;
 }
-.homeLink, .favoriteLink{
+.homeLink, .favoriteLink, .adminLink{
   font-size: 15px;
   word-spacing: 10px;
   font-family: 'Roboto', sans-serif;
@@ -59,6 +59,7 @@ hr.styled:after{
 }
 form{
   display: table;
+  margin: 0 auto;
 }
 input, textarea, label{
   display: table-cell;

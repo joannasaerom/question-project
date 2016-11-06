@@ -9,5 +9,9 @@
       "author": "Arthur A.",
       "details": "I am struggling to understand the difference between let and var. Please help",
       "timestamp": "2016-02-01"
+    }],
+  "users": [{
+    "username": "epicodus",
+    "password": "epicodus"
     }]
 }

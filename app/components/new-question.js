@@ -2,6 +2,7 @@ import Ember from 'ember';
 import moment from 'moment';
 
 export default Ember.Component.extend({
+  adminLogIn: Ember.inject.service('admin-login'),
   addQuestion: false,
   actions: {
     displayForm(){

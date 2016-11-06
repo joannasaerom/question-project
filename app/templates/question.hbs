@@ -7,12 +7,13 @@
       <h4>{{model.answers.length}} Answers</h4>
   </div>
   <div class="col-sm-2">
-    <button class="btn" {{action 'delete' model}}>Delete Questions</button>
+    {{delete-question question=model deleteQuestion="deleteQuestion"}}
     {{update-question question=model updateQuestion="updateQuestion"}}
     <p><small>Add to your favorite:</small></p>
     <i {{action 'addToFav' model}} class="glyphicon glyphicon-heart"></i>
   </div>
 </div>
+{{log sortedAnswers}}
 {{#each model.answers as |answer|}}
   <hr class="styled">
   {{answer-tile answer=answer deleteAnswer="deleteAnswer"  updateUpvote="updateUpvote" updateDownvote="updateDownvote"}}
