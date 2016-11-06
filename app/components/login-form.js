@@ -20,6 +20,9 @@ export default Ember.Component.extend({
       }
       this.set('username', '');
       this.set('password', '');
+    },
+    signOut(){
+      this.get('adminLogIn').logOut();
     }
   }
 });
