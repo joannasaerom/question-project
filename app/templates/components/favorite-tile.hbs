@@ -1,4 +1,7 @@
-{{log favoriteQuestion.favorites}}
-{{#each favoriteQuestion.favorites as |favorite|}}
-  <h4>{{#link-to 'question' favorite.id}}{{favorite.title}}{{/link-to}}</h4>
-{{/each}}
+{{#if favoriteQuestion.favorites}}
+  {{#each favoriteQuestion.favorites as |favorite|}}
+    <h4>{{#link-to 'question' favorite.id}}{{favorite.title}}{{/link-to}}</h4>
+  {{/each}}
+{{else}}
+  <h4>No favorites! Add your favorite questions by clicking on the heart icon on the question page</h4>
+{{/if}}
